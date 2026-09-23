@@ -9,7 +9,7 @@ body{
     height: 667px;
     background: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 
@@ -29,6 +29,9 @@ header {
     align-items: center;
     
 }
+.text{
+    color: black;
+}
 .boxH1{
     display: flex;
     height: 40%;
@@ -47,17 +50,115 @@ header {
     height: 25px;
     width: 25px;
 }
-span{
+.text2{
     color: aliceblue;
     font-family: serif;
 }
 main{
-    display: flex;
-    flex-direction: row;
     flex-grow: 1;
-    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    gap: 10px;
+    
 }
 .monster{
-    height: 100px;
-    width: 100px;
+    position: absolute;
+    left: 200px;
+    height: 336px;
+    width: 134px;
+}
+.background{
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    opacity: 0%;
+}
+.logo{
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    opacity: 0%;
+}
+.des{
+    
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    
+}
+.green{
+    color: greenyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.des2{
+    
+    color: white;
+    font-family:'Teko',sans-serif;
+    font-size: 14px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+}
+
+.arrow1{
+    height: 27px;
+    width: 25px;
+}
+
+.arrow2{
+    height: 27px;
+    width: 25px;
+}
+.space{
+    width: 180px;
+    height: 10px;
+}
+
+.nome{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-content: start;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+
+@media(min-width: 1024px){
+    header{
+         height: 100px;
+         width: 1950px;
+         padding-left: 55px;
+    }
+    .boxH{
+        justify-content: space-between;
+    }
+    .boxH1{
+        width: 5%;
+    }
+    .text{
+        color: white;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    main{
+        width: 1920px;
+        background-color: blueviolet;
+    }
+    footer{
+        background-color: aquamarine;
+    }
+    .nome{
+        background-color: red;
+    }
+
 }
