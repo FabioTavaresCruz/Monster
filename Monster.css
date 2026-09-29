@@ -97,8 +97,11 @@ main{
 .des2{
     
     color: white;
-    font-family:'Teko',sans-serif;
+    font-family:Times New Roman, Times, serif;
     font-size: 14px;
+}
+.des3{
+    font-size: 0xp;
 }
 footer{
     display: flex;
@@ -156,14 +159,63 @@ footer{
     }
     main{
         width: 1920px;
-        background-color: blueviolet;
     }
     footer{
+        align-items: start;
+        height: 70px;
 
-        background-color: aquamarine;
     }
-    .nome{
-        background-color: red;
+    .monster{
+        left: 870px;
+        height: 456px;
+        width: 194px;
+        z-index: 2;
     }
+    .background{
+        position: absolute;
+         left: 600px;
+        height: 740px;
+        width: 700px;
+        opacity: 10%;
+        z-index: 1;
+    }
+    .logo{
+        position: absolute;
+        right: 160px;
+        height: 110px;
+        width: 70px;
+        opacity: 100%;
+    }
+    .des{
+        font-size: 90px;
+        padding-left: 60px;
+    }
+    .green{
+        font-size: 90px;
+        padding-left: 60px;
+    }
+    .des2{
+        font-size: 24px;
+        padding-left: 60px;
+    }
+    
+    .des3{
+        position: absolute;
+        top: 325px;
+        right: 110px;
+        color: white;
+        font-family:Times New Roman, Times, serif;
+        font-size: 27px;
+        text-align: center;
+
+    }
+    .arrow1,.arrow2{
+        height: 28px;
+        width: 25px;
+    }
+    .space{
+        width: 800px;
+    }
+    
     
 }
