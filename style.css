@@ -101,7 +101,7 @@ main{
     font-size: 14px;
 }
 .des3{
-    font-size: 0xp;
+    font-size: 0px;
 }
 footer{
     display: flex;
@@ -138,12 +138,11 @@ footer{
 
 @media(min-width: 1024px){
     body{
-        height:910px;
-        width: 1920px;
+        height:100vh;
     }
     header{
          height: 100px;
-         width: 1920px;
+         width: 2540px;
          padding-left: 90px;
     }
     .boxH{
@@ -158,22 +157,26 @@ footer{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     main{
-        width: 1920px;
+        width: 2540px;
     }
     footer{
         align-items: start;
+        width: 2540px;
         height: 70px;
 
     }
+    .nome{
+        width: 2540px;
+    }
     .monster{
-        left: 870px;
+        left: 1160px;
         height: 456px;
         width: 194px;
         z-index: 2;
     }
     .background{
         position: absolute;
-         left: 600px;
+         left: 880px;
         height: 740px;
         width: 700px;
         opacity: 10%;
@@ -188,20 +191,20 @@ footer{
     }
     .des{
         font-size: 90px;
-        padding-left: 60px;
+        padding-left: 70px;
     }
     .green{
         font-size: 90px;
-        padding-left: 60px;
+        padding-left: 70px;
     }
     .des2{
         font-size: 24px;
-        padding-left: 60px;
+        padding-left: 70px;
     }
     
     .des3{
         position: absolute;
-        top: 325px;
+        top: 460px;
         right: 110px;
         color: white;
         font-family:Times New Roman, Times, serif;

@@ -7,7 +7,7 @@
 body{
     width: 375px;
     height: 667px;
-    background: linear-gradient(rgb(0, 46, 72),rgb(9, 207, 241));
+    background: linear-gradient(rgb(4, 4, 4),rgb(243, 164, 5));
     display: flex;
     flex-direction: column;
 
@@ -90,7 +90,7 @@ main{
     
 }
 .green{
-    color: rgb(255, 224, 47);
+    color: rgb(127, 255, 47);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
 }
