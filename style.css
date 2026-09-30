@@ -31,7 +31,9 @@ header {
 }
 .text{
     color: black;
+    font-family: 'Teko', sans-serif;
 }
+
 .boxH1{
     display: flex;
     height: 40%;
@@ -47,12 +49,13 @@ header {
 }
 .language{
     background-color: rgba(0, 0, 0, 0.466);
+    font-family: 'Teko', sans-serif;
     height: 25px;
     width: 25px;
 }
 .text2{
     color: aliceblue;
-    font-family: serif;
+    font-family: 'Teko', sans-serif;
 }
 main{
     flex-grow: 1;
@@ -97,8 +100,14 @@ main{
 .des2{
     
     color: white;
-    font-family:Times New Roman, Times, serif;
+    font-family: 'Teko', sans-serif;
     font-size: 14px;
+}
+.arrow1:hover{
+    transform: scale(1.2); 
+}
+.arrow2:hover{
+    transform: scale(1.2);
 }
 .des3{
     font-size: 0px;
@@ -110,12 +119,7 @@ footer{
     height: 50px;
     
 }
-.arrow1:hover{
-    transform: scale(1.2); 
-}
-.arrow2:hover{
-    transform: scale(1.2);
-}
+
 .arrow1{
     height: 25px;
     width: 23px;
@@ -136,7 +140,7 @@ footer{
     justify-content: center;
     align-content: start;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Teko', sans-serif;
     font-size: 10px;
 }
 
@@ -158,8 +162,11 @@ footer{
     }
     .text{
         color: white;
-        font-size: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        font-family: 'Teko', sans-serif;
+    }
+    .text2{
+        font-size: 25px;
     }
     main{
         width: 2540px;
@@ -172,6 +179,7 @@ footer{
     }
     .nome{
         width: 2540px;
+        font-size: 15px;
     }
     .monster{
         left: 1160px;
@@ -210,9 +218,9 @@ footer{
     .des3{
         position: absolute;
         top: 460px;
-        right: 110px;
+        right: 130px;
         color: white;
-        font-family:Times New Roman, Times, serif;
+        font-family:'Teko', sans-serif;
         font-size: 27px;
         text-align: center;
 
