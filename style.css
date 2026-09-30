@@ -110,12 +110,7 @@ footer{
     height: 50px;
     
 }
-.arrow1:hover{
-    transform: scale(1.2); 
-}
-.arrow2:hover{
-    transform: scale(1.2);
-}
+
 .arrow1{
     height: 25px;
     width: 23px;
